@@ -6,7 +6,7 @@ import igStudioImg from '../../assests/Igstudio.png'
 const Navbar = () => {
   return (
     <nav className='d-flex justify-content-between align-items-centre mt-5 header'>
-        <div>
+        <div className='logo'>
             <img src={vectorImg} alt=''/>
              <img src={igStudioImg} alt=''/>
        </div>
