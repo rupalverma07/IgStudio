@@ -17,10 +17,14 @@ const Service = () => {
            enim velit mollit Exercitation.</p>
       </div>
     </div>
-    <div>
+    <div className='serviceCard'>
+          <div className='serviceHeading'>
           <h2>Why Choose us?</h2>
-          {serviceCard.map(item => <Card itemObj={item} />)}
-    </div>
+          </div>
+          <div className='d-flex justify-content-between align-items-center'>
+                {serviceCard.map(item => <Card itemObj={item} type='service'/>)}
+           </div>
+           </div>
     </>
   )
 }
