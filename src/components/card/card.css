@@ -96,8 +96,12 @@ width: 344px;
 height: 109px;
 border-radius: 14px;
 padding:20px;
+transition: all 0.5s;
+/* transform: translate(0.5); */
 }
-
+.teamCard:hover{
+    background-color: #E3B748;
+}
 .teamCard2{
     display: flex;
     gap: 25px;

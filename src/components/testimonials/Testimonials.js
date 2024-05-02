@@ -26,7 +26,9 @@ happy Clients
       <div className='teamSection'>
         <h2>Our Team</h2>
         <div className='teamMember'>
+          <div className='row g-5'>
           {teamCard.map(item => <CustomCard data={item} />)}
+          </div>
         </div>
       </div>
     </div>

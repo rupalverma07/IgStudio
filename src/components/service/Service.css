@@ -35,7 +35,7 @@ text-align: left;
 }
 
 .about{
-width: 630px ;
+/* width: 630px ; */
 height: 174px;
 /* top: 1081px;
 left: 150px;
@@ -55,7 +55,7 @@ color:#ffffff !important
 
 }
 .rightAbout{
-width: 371px;
+/* width: 371px; */
 height: 155px;
 /* top: 1084px;
 left: 807px;
@@ -75,7 +75,8 @@ font-size: 32px !important;
 font-weight: 600 !important;
 line-height: 52.01px !important;
 text-align: center !important;
-color:#ffffff
+color:#ffffff;
+margin-left: 10%;
 
 
 }
@@ -93,7 +94,7 @@ font-weight: 500;
 line-height: 29.25px;
 text-align: left;
 color:#FFFFFF;
-
+margin-left: 10%;
 }
 
 .allCard{

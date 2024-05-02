@@ -13,7 +13,7 @@ const AreaOfPractice = () => {
         <h2>Area of Practices</h2>
         </div>
         
-<div className='imageContainer'>
+{/* <div className='imageContainer'>
 <div className='col1'>
     <p>BUSINESS LAW</p>
     <img src={img2} className='col1' alt="image1"/>
@@ -34,15 +34,15 @@ LANDLORD DISPUTES</p>
 <div className='col6'>
     <p>ELDER ABUSE</p>
     <img src={img5} className='col6' alt="image1"/></div>
-</div> 
-        {/* <div className='row'>
-            <div className='col-9'><img src={img2} className='g1' alt="image1"/></div>
-            <div className='col-3'><img src={img1} alt="image1"/></div>
-            <div className='col-3'><img src={img3} alt="image1"/></div>
-            <div className='col-9'><img src={img4} alt="image1"/></div>
-            <div className='col-9'><img src={img6} alt="image1"/></div>  
-            <div className='col-3'><img src={img5} alt="image1"/></div>
-        </div> */}
+</div>  */}
+        <div className='row g-5'>
+            <div className='col-8'><img src={img2} alt="image1"/></div>
+            <div className='col-4'><img src={img1} alt="image1"/></div>
+            <div className='col-4'><img src={img3} alt="image1"/></div>
+            <div className='col-8'><img src={img4} alt="image1"/></div>
+            <div className='col-8'><img src={img6} alt="image1"/></div>  
+            <div className='col-4'><img src={img5} alt="image1"/></div>
+        </div>
     </div>
   )
 }

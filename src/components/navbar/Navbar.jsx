@@ -14,7 +14,7 @@ const Navbar = ({type}) => {
             <img src={vectorImg} alt=''/>
              <img src={igStudioImg} alt=''/>
        </div>
-        <div className='d-flex justify-content-evenly' style={{width:'50%'}}>
+        <div className='d-flex justify-content-evenly align-items-centre' style={{width:'50%'}}>
             <div>Home</div>
             <div>Attorneys</div>
             <div>Practice Areas</div>
