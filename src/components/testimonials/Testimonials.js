@@ -5,11 +5,12 @@ import {testimonialCard, teamCard} from '../../constant/data'
 import './testi.css'
 import Card from '../card/Card';
 import CustomCard from '../card/CustomCard';
+import Carausel from '../carausel/Carausel';
 
 const Testimonials = () => {
   return (
     <div className='testimonial'>
-      <div className='heading'>
+      {/* <div className='heading'>
         <div className="headerText">
             <h2>What says our
 happy Clients
@@ -19,9 +20,10 @@ happy Clients
             <button className='leftBtn'><img src={leftArrow} alt='left btn' /></button>
             <button className='rightBtn'><img src={rightArrow} alt='right btn' /></button>
             </div>
-      </div>
+      </div> */}
       <div className='testCard'>
-        {testimonialCard.map(item => <Card itemObj={item} type='testimonial'/>)}
+        {/* {testimonialCard.map(item => <Card itemObj={item} type='testimonial'/>)} */}
+        <Carausel data={testimonialCard} renderCardItem={(item) => <Card itemObj={item} type='testimonial'/>} />
       </div>
       <div className='teamSection'>
         <h2>Our Team</h2>

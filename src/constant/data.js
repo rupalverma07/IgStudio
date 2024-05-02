@@ -62,6 +62,33 @@ aliqua dolor do amet sint. Velit officia`
 sit aliqua dolor do amet sint. Velit officia
 consequatduis enim velit mollit Exer. sit
 aliqua dolor do amet sint. Velit officia`
+    },
+    {
+        title:"Jane Cooper",
+        subTitle:"Ceo of Hunt",
+        imgUrl:img1,
+        description:`Amet minim mollit non deserunt ullamco est
+sit aliqua dolor do amet sint. Velit officia
+consequatduis enim velit mollit Exer. sit
+aliqua dolor do amet sint. Velit officia`
+    },
+    {
+        title:"Devon Lane",
+        subTitle:"Ceo of Hunt",
+        imgUrl:img2,
+        description:`Amet minim mollit non deserunt ullamco est
+sit aliqua dolor do amet sint. Velit officia
+consequatduis enim velit mollit Exer. sit
+aliqua dolor do amet sint. Velit officia`
+    },
+    {
+        title:"Robert Fox",
+        subTitle:"Ceo of Hunt",
+        imgUrl:img3,
+        description:`Amet minim mollit non deserunt ullamco est
+sit aliqua dolor do amet sint. Velit officia
+consequatduis enim velit mollit Exer. sit
+aliqua dolor do amet sint. Velit officia`
     }
 ]
 
